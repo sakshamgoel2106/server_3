@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "published_year": 2008,
+    "genre": "Software Engineering"
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "published_year": 1999,
+    "genre": "Programming"
+  },
+  {
+    "id": 3,
+    "userId": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "published_year": 2018,
+    "genre": "Self Help"
+  },
+  {
+    "id": 4,
+    "userId": 2,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "published_year": 2016,
+    "genre": "Productivity"
+  },
+  {
+    "id": 5,
+    "userId": 3,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "published_year": 1988,
+    "genre": "Fiction"
+  },
+  {
+    "id": 6,
+    "userId": 3,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "published_year": 1937,
+    "genre": "Fantasy"
+  },
+  {
+    "id": 7,
+    "userId": 4,
+    "title": "1984",
+    "author": "George Orwell",
+    "published_year": 1949,
+    "genre": "Dystopian"
+  },
+  {
+    "id": 8,
+    "userId": 4,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "published_year": 1960,
+    "genre": "Classic"
+  },
+  {
+    "id": 9,
+    "userId": 5,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "published_year": 2011,
+    "genre": "History"
+  },
+  {
+    "id": 10,
+    "userId": 5,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "published_year": 2020,
+    "genre": "Finance"
+  },
+  {
+    "id": 11,
+    "userId": 1,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "published_year": 1999,
+    "genre": "Software Engineering"
+  },
+  {
+    "id": 12,
+    "userId": 2,
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "published_year": 1937,
+    "genre": "Personal Development"
+  },
+  {
+    "id": 13,
+    "userId": 3,
+    "title": "The Clean Coder",
+    "author": "Robert C. Martin",
+    "published_year": 2011,
+    "genre": "Programming"
+  },
+  {
+    "id": 14,
+    "userId": 4,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "published_year": 1997,
+    "genre": "Finance"
+  },
+  {
+    "id": 15,
+    "userId": 5,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "published_year": 2011,
+    "genre": "Business"
+  }
+]
