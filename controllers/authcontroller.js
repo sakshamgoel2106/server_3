@@ -1,33 +1,32 @@
-// routing refrences
-
 import { loginUser, getUserProfile } from "../services/authService.js";
+import { successResponse, errorResponse } from "../handler/responsehandler.js";
 
 export const login = async (req, res) => {
     try {
         const { email, password } = req.body;
         if (!email || !password) {
-            return res.status(400).json({ message: "email and password are required" });
+            return errorResponse(res, "email and password are required", 400);
         }
         const result = await loginUser(email, password);
-        res.status(200).json(result);
+        return successResponse(res, result, "login successful", 200);
     } catch (error) {
         console.error(error);
         if (error.message === "invalid email or password") {
-            return res.status(401).json({ message: "invalid email or password" });
+            return errorResponse(res, "invalid email or password", 401);
         }
-        res.status(500).json({ message: "internal server error" });
+        return errorResponse(res);
     }
 };
 
 export const getprofile = async (req, res) => {
     try {
         const profile = await getUserProfile(req.user.user_id);
-        res.status(200).json(profile);
+        return successResponse(res, profile, "profile retrieved", 200);
     } catch (error) {
         console.error(error);
         if (error.message === "user not found") {
-            return res.status(404).json({ message: "user not found" });
+            return errorResponse(res, "user not found", 404);
         }
-        res.status(500).json({ message: "internal server error" });
+        return errorResponse(res);
     }
 };
